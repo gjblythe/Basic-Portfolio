@@ -1,0 +1,65 @@
+html {
+    width: 960px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.Header {
+    background: #ffffff;
+    border-bottom: solid #cccccc 2px;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+    display: block; 
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(qbkls.png);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    background: #4aaaa5;
+    padding: 20px;
+    z-index: 1;
+    display: inline;
+    position: relative;
+    left: 200px;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Links {
+    float: right;
+    padding: 10px 30px 10px 60px;
+    margin-right: 200px;
+    color: #777777;
+    text-decoration: none;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cccccc;
+    text-decoration: none;
+}
+.IndexImg {
+    width: 200px;
+    height: 250px;
+}
+
+.About {
+    
+}
