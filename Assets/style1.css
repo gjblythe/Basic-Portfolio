@@ -36,9 +36,10 @@ h1 {
 .Links {
     float: right;
     padding: 10px 30px 10px 60px;
-    margin-right: 200px;
+    margin-left: 200px;
     color: #777777;
     text-decoration: none;
+    text-align: right;
 }
 
 a:link {
@@ -58,8 +59,30 @@ a:hover {
 .IndexImg {
     width: 200px;
     height: 250px;
+    float: left;
 }
 
 .About {
+    padding: 20px 20px 60px 20px;
+    margin: 40px 140px 100px 140px;
+    background:  #ffffff;
     
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0px 10px 0px;
+
+}
+
+p {
+    margin: 20px;
+    padding: 20px;
+}
+
+.Box {
+    padding: 20px 20px 60px 20px;
+    margin: 40px 140px 100px 140px;
+    background:  #ffffff;
 }
