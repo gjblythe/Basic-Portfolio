@@ -8,11 +8,9 @@ html {
 .Header {
     background: #ffffff;
     border-bottom: solid #cccccc 2px;
-    top: 0px;
-    left: 0px;
     padding: 20px;
     display: block; 
-    position: static;
+    height: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -25,10 +23,11 @@ body {
 h1 {
     background: #4aaaa5;
     padding: 20px;
+    width: 250px;
     z-index: 1;
     display: inline;
     position: relative;
-    left: 200px;
+    left: 100px;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -39,9 +38,10 @@ h1 {
     color: #777777;
     text-decoration: none;
     text-align: right;
-    position: absolute;
+    text-align: center;
+    position: fixed;
     right: 50px;
-    display: inline;
+    display: inline-block;
 }
 
 a:link {
@@ -66,8 +66,9 @@ a:hover {
 }
 
 .About {
+    width: 640px;
     padding: 20px;
-    margin: 40px 140px 100px 140px;
+    margin: 40px 140px 50px 140px;
     background:  #ffffff;
     color: #777777;
     position: relative;
@@ -127,4 +128,5 @@ footer {
     text-align: center;
     background: #cccccc;
     position: sticky;
+    color: #ffffff;
 }
