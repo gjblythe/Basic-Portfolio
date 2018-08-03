@@ -13,12 +13,13 @@ html {
     height: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+/* 
 nav {
     position: relative;
     top: 5px;
     right: 50px;
-}
+    display: block;
+} */
 
 body {
     background-image: url(qbkls.png);
@@ -43,11 +44,11 @@ h1 {
     margin-left: 100px;
     color: #777777;
     text-decoration: none;
-    text-align: right;
-    text-align: center;
+    float: right;
     position: fixed;
     right: 50px;
-    display: inline-block;
+    display: inline;
+    position: absolute;
 }
 
 a:link {
@@ -97,7 +98,7 @@ p {
 }
 
 .Box {
-    padding: 20px 20px 60px 20px;
+    padding: 20px;
     margin: 40px 140px 100px 140px;
     background:  #ffffff;
 }
@@ -136,4 +137,12 @@ footer {
     background: #cccccc;
     position: sticky;
     color: #ffffff;
+}
+
+.Stock {
+    display: inline;
+    width: 160px;
+    height: 140px;
+    
+
 }
